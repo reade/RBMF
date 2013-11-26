@@ -1,10 +1,5 @@
 var locations = [
 	{
-		position: new google.maps.LatLng(38.918764, -77.032358),
-		title: "Smuckers Farms of Lancaster Cty, U St",
-		content: "<a class='location-link' target='_blank' href='http://www.smuckerfarmsdc.com/'>Smuckers Farms of Lancaster Cty, U St</a><br/><br/><h2>2118 14th St NW, Washington, DC</h2>"
-	},
-	{
 	  position: new google.maps.LatLng(38.914239, -77.045222),
 	  title: "Glen’s Garden Market, Dupont Circle",
 	  content: "<a class='location-link' target='_blank' href='http://glensgardenmarket.com/'>Glens Garden Market</a><br/><br/><h2>2001 S St NW, Washington, DC </h2>"
@@ -33,6 +28,16 @@ var locations = [
 	  position: new google.maps.LatLng(38.758980, -77.160940),
 	  title: "Nalls Produce",
 	  content: "<a class='location-link' target='_blank' href='http://www.nallsproduce.com/'>Nalls Produce of Alexandria, VA</a><br/><br/><h2>6712 Old Dominion Dr  McLean, VA 22101</h2>"	
+	},
+	{
+	  position: new google.maps.LatLng(38.934960, -77.024469),
+	  title: "The Sanctuary",
+	  content: "<a class='location-link' target='_blank' href='https://www.facebook.com/pages/Milk-Cult/131405660359212'>The Sanctuary</a><br/><br/><h2>3632 Georgia Ave NW Washington, DC 20010 </h2>"
+	},
+	{
+	  position: new google.maps.LatLng(38.955930, -77.069808),
+	  title: "Little Red Fox",
+	  content: "<a class='location-link' target='_blank' href='http://www.littleredfoxdc.com/'>Little Red Fox</a><br/><br/><h2>5035 Connecticut Ave. NW Washington, DC 20008</h2>"
 	}
 ];
 

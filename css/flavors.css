@@ -85,4 +85,19 @@
 	background-size: 70%;
 }
 
+.flavors .sun{
+	background: url('../pics/sun.svg') no-repeat;
+	background-size: 80%;
+}
+
+.flavors .cane{
+	background: url('../pics/cane.svg') no-repeat;
+	background-size: 80%;
+}
+
+.flavors .smoke{
+	background: url('../pics/smoke.svg') no-repeat;
+	background-size: 100%;
+}
+
 
