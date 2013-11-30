@@ -20,7 +20,8 @@ body, html{
 
 .map-container{
 	margin: 0 50px 0 0;
-	float: right;
+	float: left;
+	margin-left: 150px;
 	height: 500px;
 	width: 65%;
 }
@@ -29,13 +30,6 @@ body, html{
 	text-decoration: underline;
 	color: blue;
 	font-size: 3em;
-}
-
-.big-nav{
- height: 90px;
- width: 90px;
- background-position: 10px 10px;
- margin: 50px 0 0 50px;
 }
 
 .big-nav h2{
