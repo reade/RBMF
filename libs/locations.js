@@ -37,7 +37,7 @@ var locations = [
 	{
 	  position: new google.maps.LatLng(38.955930, -77.069808),
 	  title: "Little Red Fox",
-	  content: "<a class='location-link' target='_blank' href='http://www.littleredfoxdc.com/'>Little Red Fox</a><br/><br/><h3>5035 Connecticut Ave. NW Washington, DC 20008</h3>"
+	  content: "<a class='location-link' target='_blank' href='http://maps.google.com/maps?saddr=current+location&amp;daddr=Sydney+Opera+House,+Sydney+Opera+House,+Bennelong+Point,+Sydney+NSW+2000,+Australia&amp;hl=en&amp;ll=7.362467,-158.203125&amp;spn=86.548468,158.027344&amp;sll=1.616397,-146.695222&amp;sspn=87.009078,158.027344&amp;geocode=Fbb6NQIdNAv1-ilD8-2-_zVdiDF69XgC58OyNQ%3BFR1f-_0dhFsDCSndL4leZq4SazFRwhpa1_gzMQ&amp;oq=sydney+op&amp;mra=pd&amp;t=m&amp;z=3'>Little Red Fox</a><br/><br/><h3>5035 Connecticut Ave. NW Washington, DC 20008</h3>"
 	}
 ];
 
@@ -59,14 +59,13 @@ function initialize() {
 			title: location.title,
 			position: location.position,
 			map: map,
-			icon: '../pics/location-pin.png'
+			icon: 'pics/location-pin.png'
 		});
 
 
 		google.maps.event.addListener(marker, "click", function() { 
-			infowindow.close();
-			infowindow.setContent(location.content);
-			infowindow.open(map, marker);
+			marker.setAnimation(google.maps.Animation.DROP);
+			$('.location-list').html(location.content);
 		});
 	});
 }

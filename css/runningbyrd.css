@@ -40,17 +40,11 @@ h2{
 
 .nav-container{
 	position: fixed;
-	top: 50px;
+	top: 0;
 	display: block;
-	margin: 4% auto;
+	margin: 25px;
 	overflow: hidden;
 	z-index: 400;
-}
-
-.another-container{
-	overflow: hidden;
-	margin-left: 25px;
-	width: 90px;
 }
 
 .statement{
@@ -69,6 +63,7 @@ h2{
 	float: left;
 	background-size: 80%;
 	opacity: 0.7;
+	margin-right: 20px;
 }
 
 .big-nav:hover{

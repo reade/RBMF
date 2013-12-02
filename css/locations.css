@@ -19,11 +19,14 @@ body, html{
 }
 
 .map-container{
-	margin: 0 50px 0 0;
 	float: left;
-	margin-left: 150px;
-	height: 500px;
+	height: 600px;
 	width: 65%;
+}
+
+#locations{
+	width: 90%;
+	margin: 200px auto;
 }
 
 .location-link{
@@ -47,9 +50,8 @@ body, html{
 
 .location-list{
 	overflow: hidden;
-	width: 65%;
+	width: 30%;
 	float: right;
-	margin: 30px 5% 0 auto;
 }
 
 .location-list h2{
