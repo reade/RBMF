@@ -3,7 +3,7 @@
 	position:relative;
 	margin:25px auto 20px auto;
 	width:990px;
-	height:400px;
+	height:450px;
 }
 .ca-wrapper{
 	width:100%;
@@ -23,11 +23,10 @@
 	right:0px;
 	padding:4px 15px;
 	font-weight:bold;
-	background: #ccbda2;
+	background: #EEEEEE;
 	text-align:center;
 	color: white;
-	font-family: "Georgia","Times New Roman",serif;
-	font-style:italic;
+	font-family: landrygo,"Times New Roman",serif;
 	text-shadow:1px 1px 1px #897c63;
 }
 .ca-close{
@@ -48,6 +47,7 @@
 	opacity:1.0;
 }
 .ca-item-main{
+	border-radius: 30px;
 	padding:20px;
 	position:absolute;
 	top:5px;
@@ -111,11 +111,10 @@
 	text-shadow: 0px 1px 1px #e4ebe9;
 }
 .ca-item h4{
-	font-family: "Georgia","Times New Roman",serif;
-	font-style:italic;
+	font-family: Georgia,"Times New Roman",serif;
 	font-size:12px;
 	text-align:left;
-	border-left:10px solid #b0ccc6;
+	border-left:10px solid #00B4FF;
 	padding-left:10px;
 	line-height:24px;
 	margin:10px;
@@ -133,7 +132,7 @@
 	text-indent:0px;
 }
 .ca-content-wrapper{
-	background:#b0ccc6;
+	background:#EEEEEE;
 	position:absolute;
 	width:0px; /* expands to width of the wrapper minus 1 element */
 	height:440px;
@@ -141,6 +140,7 @@
 	text-align:left;
 	z-index:10;
 	overflow:hidden;
+	border-radius: 30px;
 }
 .ca-content{
 	width:660px;
@@ -161,11 +161,10 @@
 	text-indent: 30px;
 	line-height: 30px;
 	margin:25px 20px 0px 35px;
-	font-size: 16px;
+	font-size: 14px;
 	padding-bottom:5px;
 	color:black;
 	font-family: landrygo, 'Coustard', sans-serif;
-	text-shadow: 1px 1px 1px #99BCB4;
 }
 .ca-content ul{
 	margin:20px 35px;

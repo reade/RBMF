@@ -21,18 +21,20 @@ body, html{
 .map-container{
 	float: left;
 	height: 600px;
-	width: 65%;
-}
-
-#locations{
-	width: 90%;
-	margin: 200px auto;
+	width: 55%;
 }
 
 .location-link{
 	text-decoration: underline;
-	color: blue;
-	font-size: 3em;
+	color: white;
+	font-size: 2em;
+	text-align: center;
+	margin: auto 20px auto;
+}
+
+.location-link:visited{
+	color: white;
+	text-align: center; 
 }
 
 .big-nav h2{
@@ -49,15 +51,18 @@ body, html{
 }
 
 .location-list{
+	margin-top: 50px;
 	overflow: hidden;
 	width: 30%;
-	float: right;
+	float: left;
+	margin-left: 50px;
 }
 
 .location-list h2{
 	font-size: 1.2em;
 	text-align: center;
 	line-height: 25px;
+	min-width: 400px;
 }
 
 .location-list li p, .location-list li a{
@@ -70,6 +75,51 @@ body, html{
 	width: 80%;
 	height: 50px;
 	margin: 30px auto;
+}
+
+
+.b-logo{
+	position: relative;
+	margin-top: 50px;
+	height: 400px;
+	width: 400px;
+}
+
+.b-logo.milk-cult{
+	background: url('../pics/milk-cult.png') 0px -50px no-repeat;
+	background-size: 95%;
+}
+
+.b-logo.each-peach{
+	background: url('../pics/each-peach.svg') no-repeat;
+	background-size: 84%;
+}
+
+.b-logo.glens-market{
+	background: url('../pics/glens-market.png') no-repeat;
+	background-size: 100%;
+}
+
+.b-logo.nourish-market{
+	background: url('../pics/nourish-market.png') 40px 0 no-repeat;
+	background-size: 65%;
+}
+.b-logo.nalls{
+	background: url('../pics/nalls.png') 30px 0 no-repeat;
+	background-size: 85%;
+}
+.b-logo.red-fox{
+	background: url('../pics/red-fox.png') 40px 0 no-repeat;
+	background-size: 65%;
+}
+.b-logo.ob-mclean{
+	background: url('../pics/ob-mclean.png') no-repeat;
+	background-size: 85%;
+}
+
+.b-logo.hallow{
+	background: url('../pics/heritage-hallow.png') no-repeat;
+	background-size: 85%;
 }
 
 

@@ -13,10 +13,10 @@
 			@import "css/reset.css";
 			@import "css/locations.css";
 			@import "css/demo.css";
-			@import "css/style.css";
 			@import "css/jquery.jscrollpane.css";
 			@import "css/flavors.css";
 			@import "css/runningbyrd.css";
+			@import "css/style.css";
 		</style>
 		 <script src="http://code.jquery.com/jquery-latest.min.js"
 	        type="text/javascript"></script>
@@ -43,7 +43,7 @@
 			});
 	     </script>
 	</head>
-	<body>
+	<body id="body">
 		<div class="big-byrd-container">
 			<img src="pics/mason-jar-logo.png"></img>
 		</div>
@@ -56,6 +56,8 @@
 			</a>
 			<a class="big-nav" href="#contact">
 				<h2>Contact</h2>
+			</a>
+			<a class="big-nav big-byrd" href="#body">
 			</a>
 	</div>
 		<div class="statement">
@@ -73,12 +75,70 @@
 			</div>
 			<div id="ca-container" class="ca-container">
 				<div class="ca-wrapper">
+					<div class="ca-item ca-item-8">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h3>Candy Cane</h3>
+								<h4>
+									<span>A blend of cinnamon and peppermint teas, All the flavor of its namesake, but with an adult level of sweetness.</span>
+								</h4>
+								<a href="#" class="ca-more">Read the story</a>
+						</div>
+						<div class="ca-content-wrapper">
+							<div class="ca-content">
+								<a href="#" class="ca-close">close</a>
+								<div class="ca-content-text">
+									<h6>Every year, my brother and I found a giant candy cane log in our stockings. We'd work on them for a month, keeping them untidily wrapped in the fridge, making sure not to grab the wrong stick.</h6>
+									<h6>Candy Cane tea, a wintry mix of cinnamon and mint, stores more nicely on the shelf and can be shared more readily with friends.</h6><h6>Or not...</h6>
+								</div>
+							</div>
+						</div>
+					</div>	
+					<div class="ca-item ca-item-9">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h3>Winter Sun</h3>
+								<h4>
+									<span>A spiced orange tea, hints of grapefruit and sweet oolong.</span>
+								</h4>
+								<a href="#" class="ca-more">Read the story</a>
+						</div>
+						<div class="ca-content-wrapper">
+							<div class="ca-content">
+								<a href="#" class="ca-close">close</a>
+								<div class="ca-content-text">
+									<h6>On a dreary winter day it can seem like months since you've seen the sun.</h6>
+									<h6>Fortunately, RunningbyTea Co has figured out how to bottle this precious resource.</h6>
+									<h6>Let Winter Sun tea light up your life with its warming blend of orange and spiced teas</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ca-item ca-item-7">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h3>Shenandoah Smoke</h3>
+								<h4>
+									<span>Smoked hazlenut tea, spiced pu erh finish.</span>
+								</h4>
+								<a href="#" class="ca-more">Read the story</a>
+						</div>
+						<div class="ca-content-wrapper">
+							<div class="ca-content">
+								<a href="#" class="ca-close">close</a>
+								<div class="ca-content-text">
+									<h6>Shenandoah Smoke is hand crafted from the finest smoked teas, blended with hazelnut and spices for an almost coffee-like flavor.</h6>
+									<h6>No storytelling is needed for this substantial tea; it's just hard-hitting flavor for the lumberjack in us all.</h6>
+								</div>
+							</div>
+						</div>
+					</div>		
 					<div class="ca-item ca-item-1">
 						<div class="ca-item-main">
 							<div class="ca-icon"></div>
 							<h3>Apple Cider Tea</h3>
 							<h4>
-								<span>Apples mean fall is here, the weather grows cooler, and it might be time to move inside from the porch.</span>
+								<span>A fall mix of hibiscus, rosehips and apple teas. Mulling spices for warmth, wrapped in caramel</span>
 							</h4>
 								<a href="#" class="ca-more">Read the story</a>
 						</div>
@@ -86,7 +146,7 @@
 							<div class="ca-content">
 								<a href="#" class="ca-close">close</a>
 								<div class="ca-content-text">
-									<h6>We gather fresh apples in myriad ways. I used to wait for my little brothers to waltz back down Rural Route 2 pushing a stroller filled with Jonagold, but my godsons race through crunchy leaves to beat each other to the best Braeburn. If time or circumstance keeps you from picking your own apples this season, pluck a bottle of Apple Cider Tea from the shelf instead.</h6></br>
+									<h6>We gather fresh apples in myriad ways. I used to wait for my little brothers to waltz back down Rural Route 2 pushing a stroller filled with Jonagold, but my godsons race through crunchy leaves to beat each other to the best Braeburn. If time or circumstance keeps you from picking your own apples this season, pluck a bottle of Apple Cider Tea from the shelf instead.</h6>
 									<h6>Apple cider tea is a perfect mix of mulling spices, apple and tea. Let it keep you company in your orchard this autumn.</h6>
 								</div>
 							</div>
@@ -97,7 +157,7 @@
 							<div class="ca-icon"></div>
 							<h3>Berry Season</h3>
 							<h4>
-								<span>Most of the country has a season in which local berries are abundant.</span>
+								<span>Refreshing mix of 5 berry teas, Huckleberry, Raspberry, Blackberry, Mulberry, Strawberry. Raspberry leaves for finish.</span>
 							</h4>
 								<a href="#" class="ca-more">Read the story</a>
 						</div>
@@ -110,28 +170,13 @@
 							</div>
 						</div>
 					</div>
-					<div class="ca-item ca-item-3">
-						<div class="ca-item-main">
-							<div class="ca-icon flavor-icon slices"></div>
-							<h3>Apple Pie</h3>
-							<h4>
-								<span>Apples mean fall is here, the weather grows cooler, and it might be time to move inside from the porch.</span>
-							</h4>
-								<a href="#" class="ca-more">Read the story</a>
-						</div>
-						<div class="ca-content-wrapper">
-							<div class="ca-content">
-								<a href="#" class="ca-close">close</a>
-								<div class="ca-content-text">
-									<h6>Independence Day in my Georgia home meant deciding whether to make the run to Carolina for fireworks. Everyone has a different tradition for the 4th, but across the south, sweet tea and apple pie come standard. Runningbyrd Tea combines those flavors for an Independence Day Special, Apple Pie Tea.</h6><br><h6>Fireworks not included.</h6>
-								</div>
-							</div>
-						</div>
-					</div>
 					<div class="ca-item ca-item-4">
 						<div class="ca-item-main">
 							<div class="ca-icon"></div>
 							<h3>Summer Rain</h3>
+								<h4>
+									<span>Indian masala chai tea. Peppery finish.</span>
+								</h4>
 								<a href="#" class="ca-more">Read the story</a>
 						</div>
 						<div class="ca-content-wrapper">
@@ -143,17 +188,20 @@
 							</div>
 						</div>
 					</div>
-					<div class="ca-item ca-item-5">
+					<div class="ca-item ca-item-3">
 						<div class="ca-item-main">
-							<div class="ca-icon"></div>
-							<h3>Chocolate Peppermint</h3>
+							<div class="ca-icon flavor-icon slices"></div>
+							<h3>Apple Pie</h3>
+							<h4>
+								<span>An American tradition, mix of apple teas with notes of cinnamon and vanilla.</span>
+							</h4>
 								<a href="#" class="ca-more">Read the story</a>
 						</div>
 						<div class="ca-content-wrapper">
 							<div class="ca-content">
 								<a href="#" class="ca-close">close</a>
 								<div class="ca-content-text">
-									<h6>Legend has it that John Henry, after bursting his heart defeating the steam powered hammer, asked for two cool drinks of water. I imagine Chocolate Peppermint as those two cool drinks; two flavors, blending to provide a refreshing calm. It is a tea to give pause, to separate your long hard day from the relaxing evening to come.</h6>
+									<h6>Apples mean fall is here, the weather grows cooler, and it might be time to move inside from the porch. Independence Day in my Georgia home meant deciding whether to make the run to Carolina for fireworks. Everyone has a different tradition for the 4th, but across the south, sweet tea and apple pie come standard. Runningbyrd Tea combines those flavors for an Independence Day Special, Apple Pie Tea.</h6><h6>Fireworks not included.</h6>
 								</div>
 							</div>
 						</div>
@@ -162,6 +210,9 @@
 						<div class="ca-item-main">
 							<div class="ca-icon"></div>
 							<h3>Spicy Thai</h3>
+								<h4>
+									<span>Thai inspired spiced chai tea, notes of lemongrass and ginger</span>
+								</h4>
 								<a href="#" class="ca-more">Read the story</a>
 						</div>
 						<div class="ca-content-wrapper">
@@ -172,65 +223,30 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="ca-item ca-item-7">
-						<div class="ca-item-main">
-							<div class="ca-icon"></div>
-							<h3>Shenandoah Smoke</h3>
-								<a href="#" class="ca-more">Read the story</a>
-						</div>
-						<div class="ca-content-wrapper">
-							<div class="ca-content">
-								<a href="#" class="ca-close">close</a>
-								<div class="ca-content-text">
-									<h6>Shenandoah Smoke is hand crafted from the finest smoked teas, blended with hazelnut and spices for an almost coffee-like flavor.</h6>
-									<br/>
-									<h6>No storytelling is needed for this substantial tea; it's just hard-hitting flavor for the lumberjack in us all.</h6>
-								</div>
-							</div>
-						</div>
 					</div>	
-					<div class="ca-item ca-item-8">
+					<div class="ca-item ca-item-5">
 						<div class="ca-item-main">
 							<div class="ca-icon"></div>
-							<h3>Candy Cane</h3>
+							<h3>Chocolate Peppermint</h3>
+								<h4>
+									<span>Tastes like a peppermint patty. Very refreshing. Also, you have had this.</span>
+								</h4>
 								<a href="#" class="ca-more">Read the story</a>
 						</div>
 						<div class="ca-content-wrapper">
 							<div class="ca-content">
 								<a href="#" class="ca-close">close</a>
 								<div class="ca-content-text">
-									<h6>Every year, my brother and I found a giant candy cane log in our stockings. We'd work on them for a month, keeping them untidily wrapped in the fridge, making sure not to grab the wrong stick.</h6>
-									<br/>
-									<h6>Candy Cane tea, a wintry mix of cinnamon and mint, stores more nicely on the shelf and can be shared more readily with friends.<h6></h6>Or not...</h6>
+									<h6>Legend has it that John Henry, after bursting his heart defeating the steam powered hammer, asked for two cool drinks of water. I imagine Chocolate Peppermint as those two cool drinks; two flavors, blending to provide a refreshing calm. It is a tea to give pause, to separate your long hard day from the relaxing evening to come.</h6>
 								</div>
 							</div>
 						</div>
-					</div>	
-					<div class="ca-item ca-item-9">
-						<div class="ca-item-main">
-							<div class="ca-icon"></div>
-							<h3>Winter Sun</h3>
-								<a href="#" class="ca-more">Read the story</a>
-						</div>
-						<div class="ca-content-wrapper">
-							<div class="ca-content">
-								<a href="#" class="ca-close">close</a>
-								<div class="ca-content-text">
-									<h6>On a dreary winter day it can seem like months since you've seen the sun.</h6>
-									<br/>
-									<h6>Fortunately, RunningbyTea Co has figured out how to bottle this precious resource.</h6>
-									<br/>
-									<h6>Let Winter Sun tea light up your life with its warming blend of orange and spiced teas</h6>
-								</div>
-							</div>
-						</div>
-					</div>				
+					</div>		
 				</div>
+		</div>
 		<script type="text/javascript">
 			$('#ca-container').contentcarousel();
 		</script>
-	</div>
 
 	<div class="section-container" id="locations">
 		<h2>Locations</h2>
@@ -238,7 +254,7 @@
 		<h3>
 			Runningbyrd Teas can be found at the following locations:
 		</h3>
-	</div>
+		</div>
 
 		<div class="map-container">
 
@@ -246,7 +262,7 @@
 
 
 		<div class="location-list">
-			
+			<a class="location-link" target="_blank" href="http://www.nourishmarket.com/">Nourish Market, Falls Church</a><br><br><h2>1053 W Broad St, Falls Church, VA</h2><div class="b-logo nourish-market"></div>	
 		</div>
 	</div>
 
@@ -256,6 +272,10 @@
 
 	<div class="section-container" id="contact">
 		<h2>Contact</h2>
+		<div class="contact-circle-container">
+			<a href="mailto:runningbyrdteacompany@gmail.com?subject=In My White Tea"><div class="contact-circle email"></div></a>
+			<a target="_blank" href="https://twitter.com/runningbyrdtea"><div class="contact-circle twitter"></div></a>
+		</div>
 	</div>
 
 	</body>
