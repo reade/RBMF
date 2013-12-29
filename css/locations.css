@@ -11,30 +11,22 @@ body, html{
 	background-size: 100%;
 }
 
-.nav-container{
-	width: 220px;
-	overflow: hidden;
-	float: left;
-	margin: 0 2% 80px 2%;
-}
-
 .map-container{
 	float: left;
 	margin-left: 100px;
 	height: 600px;
-	width: 55%;
+	width: 80%;
 }
 
-.location-link{
+.location-link, .location-link h4{
 	text-decoration: underline;
-	color: white;
-	font-size: 2em;
+	font-size: 1em;
+	display: block;
 	text-align: center;
-	margin: auto 20px auto;
+	color: black;
 }
 
 .location-link:visited{
-	color: white;
 	text-align: center; 
 }
 
@@ -52,18 +44,16 @@ body, html{
 }
 
 .location-list{
-	margin-top: 50px;
+	margin: 50px auto;
 	overflow: hidden;
-	width: 30%;
-	float: left;
-	margin-left: 50px;
+	width: 80%;
 }
 
 .location-list h2{
-	font-size: 1.2em;
+	font-size: 1em;
 	text-align: center;
 	line-height: 25px;
-	min-width: 400px;
+	color: black;
 }
 
 .location-list li p, .location-list li a{
@@ -81,24 +71,25 @@ body, html{
 
 .b-logo{
 	position: relative;
-	margin-top: 50px;
-	height: 400px;
-	width: 400px;
+	margin: 50px auto 0 auto;
+	height: 150px;
+	width: 24%;
+	display: inline-block;
 }
 
 .b-logo.milk-cult{
-	background: url('../pics/milk-cult.png') 0px -50px no-repeat;
-	background-size: 95%;
+	background: url('../pics/milk-cult.png') 50% 0px no-repeat;
+	background-size: 60%;
 }
 
 .b-logo.each-peach{
-	background: url('../pics/each-peach.svg') no-repeat;
-	background-size: 84%;
+	background: url('../pics/each-peach.svg') 50% 30px no-repeat;
+	background-size: 95%;
 }
 
 .b-logo.glens-market{
 	background: url('../pics/glens-market.png') no-repeat;
-	background-size: 100%;
+	background-size: 95%;
 }
 
 .b-logo.nourish-market{
@@ -106,21 +97,26 @@ body, html{
 	background-size: 65%;
 }
 .b-logo.nalls{
-	background: url('../pics/nalls.png') 30px 0 no-repeat;
-	background-size: 85%;
+	background: url('../pics/nalls.png') 50% 0 no-repeat;
+	background-size: 95%;
 }
 .b-logo.red-fox{
-	background: url('../pics/red-fox.png') 40px 0 no-repeat;
-	background-size: 65%;
+	background: url('../pics/red-fox.png') 50% 0 no-repeat;
+	background-size: 75%;
 }
 .b-logo.ob-mclean{
-	background: url('../pics/ob-mclean.png') no-repeat;
-	background-size: 85%;
+	background: url('../pics/ob-mclean.png') 50% 0px no-repeat;
+	background-size: 250%;
 }
 
 .b-logo.hallow{
-	background: url('../pics/heritage-hollow.png') 60px 0 no-repeat;
-	background-size: 60%;
+	background: url('../pics/heritage-hollow.png') 50% 0 no-repeat;
+	background-size: 45%;
+}
+
+.b-logo.relay-foods{
+	background: url('../pics/relay-foods.png') 50% 0 no-repeat;
+	background-size: 100%;
 }
 
 
