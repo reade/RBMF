@@ -87,11 +87,6 @@ body, html{
 	background-size: 95%;
 }
 
-.b-logo.glens-market{
-	background: url('../pics/glens-market.png') no-repeat;
-	background-size: 95%;
-}
-
 .b-logo.nourish-market{
 	background: url('../pics/nourish-market.png') 40px 0 no-repeat;
 	background-size: 65%;
@@ -117,6 +112,16 @@ body, html{
 .b-logo.relay-foods{
 	background: url('../pics/relay-foods.png') 50% 0 no-repeat;
 	background-size: 100%;
+}
+
+.b-logo.hometown{
+	background: url('../pics/hometown.png') 50% 0 no-repeat;
+	background-size: 75%;
+}
+
+.b-logo.green-grocer{
+	background: url('../pics/green-grocer.png') 50% 25px no-repeat;
+	background-size: 95%;
 }
 
 
